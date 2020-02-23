@@ -52,7 +52,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignLeft="@+id/etName"
         android:layout_toRightOf="@+id/tvEmail"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:hint="@string/hint_email" />
 
     <TextView
