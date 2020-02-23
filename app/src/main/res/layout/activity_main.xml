@@ -26,6 +26,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginLeft="10dp"
         android:layout_toRightOf="@+id/tvName"
+        android:inputType="text"
         android:hint="@string/hint_name" />
 
     <TextView
@@ -45,8 +46,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvEmail"
         android:layout_alignParentRight="true"
-        android:layout_toRightOf="@+id/tvEmail"
         android:layout_alignLeft="@+id/etName"
+        android:layout_toRightOf="@+id/tvEmail"
+        android:inputType="text"
         android:hint="@string/hint_email" />
 
     <TextView
