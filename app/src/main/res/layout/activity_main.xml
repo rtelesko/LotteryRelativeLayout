@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:text="@string/name"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold" />
@@ -27,9 +27,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvName"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="10dp"
-        android:layout_toRightOf="@+id/tvName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/tvName"
         android:inputType="text"
         android:hint="@string/hint_name" />
 
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvName"
         android:layout_marginTop="32dp"
-        android:layout_marginLeft="10dp"
+        android:layout_alignStart="@+id/tvName"
         android:text="@string/email"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold" />
@@ -49,9 +49,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvEmail"
-        android:layout_alignParentRight="true"
-        android:layout_alignLeft="@+id/etName"
-        android:layout_toRightOf="@+id/tvEmail"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/etName"
+        android:layout_toEndOf="@+id/tvEmail"
         android:inputType="textEmailAddress"
         android:hint="@string/hint_email" />
 
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvEmail"
         android:layout_marginTop="32dp"
-        android:layout_marginLeft="10dp"
+        android:layout_alignStart="@+id/tvEmail"
         android:text="@string/tips"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold" />
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvTips"
-        android:layout_toRightOf="@+id/tvTips"
+        android:layout_toEndOf="@+id/tvTips"
         android:entries="@array/number_tips" />
 
     <Space
@@ -86,7 +86,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/space"
+        android:layout_toStartOf="@+id/space"
         android:text="@string/send" />
 
     <Button
@@ -94,7 +94,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/space"
+        android:layout_toEndOf="@+id/space"
         android:text="@string/cancel" />
 
 </RelativeLayout>
